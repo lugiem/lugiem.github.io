@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página personal | Lugiem </title>
+    <style>
+        /* Estilos básicos para que se vea moderno */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background: #2c3e50;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        /* Secciones */
+        header {
+            height: 60vh;
+            background: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container {
+            border-bottom: 1px solid #eee;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            display: inline-block;
+        }
+
+        /* Botón de proyectos */
+        .btn-proyectos {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .btn-proyectos:hover {
+            background: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#cv">Mi CV</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio">
+        <h1>¡Hola! Soy [Tu Nombre]</h1>
+        <p>Bienvenido a mi sitio web personal y portafolio profesional.</p>
+        <a href="#proyectos" class="btn-proyectos">Ver mis proyectos</a>
+    </header>
+
+    <section id="cv" class="container">
+        <h2>Mi Currículum Vitae</h2>
+        <h3>Experiencia</h3>
+        <p><strong>Puesto actual - Empresa</strong> (2022 - Presente)<br>
+            Descripción breve de tus logros y responsabilidades principales.</p>
+
+        <h3>Educación</h3>
+        <p><strong>Nombre de tu Carrera/Curso</strong> - Institución (Año de graduación)</p>
+
+        <h3>Habilidades</h3>
+        <p>HTML, CSS, Git, Gestión de proyectos, Inglés técnico.</p>
+    </section>
+
+    <section id="proyectos" class="container">
+        <h2>Mis Proyectos</h2>
+        <p>Aquí puedes ver algunos de los trabajos en los que he participado:</p>
+        <ul>
+            <li><strong>Proyecto 1:</strong> Una web interactiva hecha con HTML.</li>
+            <li><strong>Proyecto 2:</strong> Análisis de datos para una tienda local.</li>
+            <li><strong>Proyecto 3:</strong> Automatización de procesos en Python.</li>
+        </ul>
+        <center>
+            <a href="https://github.com/[TU-USUARIO]" target="_blank" class="btn-proyectos">Ver todo en GitHub</a>
+        </center>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si te interesa mi perfil, ¡hablemos!</p>
+        <p>📧 Email: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+        <p>🔗 LinkedIn: <a href="https://linkedin.com/in/tu-perfil" target="_blank">linkedin.com/in/tu-perfil</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Hecho con ❤️ y GitHub Pages.</p>
+    </footer>
+
+</body>
+
+</html>
